@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  
+  <div id="home" class="position-relative vh-100">
+    <div id="navbar" class="bg-transperant position-fixed top-0 w-100 z-3">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light fs-3" href="#">Astronaut</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 p-2">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-light" href="#cards">Astronaut</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-light" href="#formm">LogIn</a>
+                  </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+      </div>
+    <div class="home-image m-auto ">
+        <img src="./images/mars.jpg" alt="" class=" mt-3 position-absolute top-50 start-50 translate-middle w-75 h-75 shadow-sm p-3 mb-5 bg-transperant rounded">
+    </div>
+    <div class="home-cap text-light position-absolute top-50 start-50 translate-middle text-center">
+        <h1 class="fs-1 text-light ">  Hello Astronaut</h1>  
+           <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. <br>  maxime nulla architecto  <br>consectetur accusamus sapiente aut .</p>
+       <div class="home-btn"><button type="button" class="btn btn-outline-light">Read More</button></div>
+       </div>
+  </div>
+  <div id="cards" class=" m-auto pt-3 ">
+    <div class="card-cap text-center text-light pb-4"><h1>Astronaut</h1></div>
+    <div class="card-group w-75 m-auto ">
+        <div class="card text-center text-light">
+          <img src="./images/111.jpg" class="card-img-top w-75 m-auto" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-light">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card text-center text-light">
+          <img src="./images/222.jpg" class="card-img-top w-75  m-auto" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-body-light">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card text-center text-light">
+          <img src="./images/333.jpg" class="card-img-top w-75  m-auto" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-body-light">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+  </div>
+   <div id="formm" class=" m-auto vh-100 pt-5  ">
+    <div class="formm m-auto text-light w-75">
+        <form>
+            <div class="cap text-light fs-2 text-center text-light pb-4"><h1>LogIn</h1></div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-outline-light">LogIn</button>
+          </form>
+    </div>
+   
+   
+   </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

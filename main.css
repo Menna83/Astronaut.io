@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   font-family: cursive;
+   
+}
+#home{
+   
+   background: linear-gradient(180deg,#fb9a77,#e76f42, #2f143b);
+}
+#formm{
+  background-color: #2f143b;
+}
+#cards{
+    background-color: #2f143b;
+
+}
+.card{
+    background-color: #2f143b;
+}
